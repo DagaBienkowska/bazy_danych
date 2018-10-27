@@ -1,5 +1,7 @@
 package com.dagabienkowska.database.jdbc.utils;
 
+import com.dagabienkowska.database.dao.RunDao;
+
 import java.sql.*;
 import java.util.Properties;
 
