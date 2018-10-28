@@ -47,7 +47,7 @@ public class Main {
 
         List<Run> runList = runDao.findAll();
         for (Run run : runList){
-            run.getMemberList(1l);
+            System.out.println(run.getName() + "members  count: " +run.getMemberList().size());
         }
 
     }
